@@ -1,4 +1,4 @@
-// Initialize Swiper
+// Swiper
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 0,
@@ -39,7 +39,7 @@ init();
 
 
 // header dropdown
-const dropdown = document.querySelectorAll(".header__column > li");
+const dropdown = document.querySelectorAll(".header > ul > li");
 // console.log(dropdown.length);
 
 for(let i = 0; i < dropdown.length; i++) {
@@ -69,6 +69,17 @@ $(document).ready(function(){
 });
 */
 
+// aside expand
+const hamBtn = document.querySelector(".ham"),
+    aside = document.querySelector(".aside"),
+    html = document.querySelector("html"),
+    closeBtn = aside.querySelector(".close-btn");
 
+hamBtn.addEventListener("click", function(){
+    html.classList.add("js-expand");
+});
+closeBtn.addEventListener("click", function(){
+    html.classList.remove("js-expand");
+});
 
 

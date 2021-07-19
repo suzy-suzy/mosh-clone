@@ -12,16 +12,61 @@
 </head>
 
 <body>
+    <aside class="aside">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo2.png" alt="logo"></a>
+        </div>
+        <ul class="account-menu">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">주문내역확인</a></li>
+            <li><a href="#">마이쇼핑</a></li>
+        </ul>
+        <form class="search-form" action="#" method="get">
+            <input type="text" required placeholder="검색어를 입력해주세요.">
+            <button>Search</button>
+        </form>
+        <ul class="category-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">LookBook</a></li>
+            <li><a href="#">Recipe</a></li>
+            <li><a href="#">Issue</a></li>
+            <li>
+                <a href="#">Board</a>
+                <ul class="submenu">
+                    <li><a href="#">모슈 Q&A</a></li>
+                    <li><a href="#">모슈 공지사항</a></li>
+                    <li><a href="#">기업문의</a></li>
+                    <li><a href="#">상품 사용후기</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Shop</a>
+                <ul class="submenu">
+                    <li><a href="#">Milk</a></li>
+                    <li><a href="#">Latte</a></li>
+                    <li><a href="#">Table</a></li>
+                    <li><a href="#">Food Jar</a></li>
+                    <li><a href="#">Electric</a></li>
+                    <li><a href="#">Etc</a></li>
+                    <li><a href="#">Acc</a></li>
+                    <li><a href="#">Parts</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="close-btn" href="#"><i class="fas fa-times"></i></a>
+    </aside>
     <header class="header">
-        <div class="header__column">
-            <a class="logo" href="index.html"><img src="img/logo2.png" alt="logo"></a>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo2.png" alt="logo"></a>
         </div>
         <div class="m-nav">
             <a class="ham" href="#">
                 <span></span>
             </a>
         </div>
-        <ul class="header__column">
+        <ul class="category-menu">
             <li><a href="#">About</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">LookBook</a></li>
@@ -50,7 +95,7 @@
                 </ul>
             </li>
         </ul>
-        <ul class="header__column">
+        <ul class="account-menu">
             <li>
                 <a href="#"><i class="fas fa-user"></i></a>
                 <ul class="submenu">
@@ -276,8 +321,8 @@
 
     <footer class="footer">
         <ul>
-            <li>
-                <a class="logo" href="index.html"><img src="img/logo2.png" alt="logo"></h1></a>
+            <li class="logo">
+                <a href="index.html"><img src="img/logo2.png" alt="logo"></h1></a>
             </li>
             <li>
                 <h3>CUSTOMER SERVICE</h3>
@@ -333,8 +378,6 @@
                 </div>
             </li>
         </ul>
-
-
     </footer>
 
     <script src="js/swiper.min.js"></script>

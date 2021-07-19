@@ -1,3 +1,15 @@
 @mixin sectionPadding($padding: 50px 0) {
   padding: $padding;
 }
+
+@mixin tablet {
+  @media screen and (max-width: $breakpointTablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $breakpointMobile) {
+    @content;
+  }
+}

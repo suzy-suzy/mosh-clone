@@ -1,18 +1,25 @@
 $black: #222;
 $white: #fff;
 $gray: #888;
+
 $mainBgColor: #94867b;
 $subBgColor: #fcf7ef;
+
 $color1: #746661;
 $color2: #e69e6c;
 $color3: #aaa;
 
+$fontSans: "Roboto", sans-serif;
 $fontSerif: "Playfair Display", serif;
-$fontSize1: 32px;
-$fontSize2: 16px;
-$fontSize3: 14px;
-$fontSize4: 13px;
+
+$fontDefault: 16px;
+$fontLarge: 32px;
+$fontMedium: 14px;
+$fontSmall: 13px;
 
 $innerWidth: 1240px;
 $letterSpacing: 2px;
 $mWrapPadding: 20px;
+
+$breakpointTablet: 1240px;
+$breakpointMobile: 470px;
